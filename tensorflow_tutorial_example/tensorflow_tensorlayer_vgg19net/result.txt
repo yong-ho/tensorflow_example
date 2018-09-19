@@ -1,0 +1,65 @@
+C:\Users\jyh\AppData\Local\Programs\Python\Python35\python.exe C:/Users/jyh/PycharmProjects/untitled1/tutorial_vgg19.py
+2017-06-14 16:41:52.623550: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.646290: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.646844: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.647209: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.665186: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.665435: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.672465: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 16:41:52.672901: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+build model started
+Tensor("mul:0", shape=(?, 224, 224, 3), dtype=float32)
+  [TL] InputLayer  input: (?, 224, 224, 3)
+  [TL] Conv2dLayer conv1_1: shape:[3, 3, 3, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool1: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv2_1: shape:[3, 3, 64, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool2: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv3_1: shape:[3, 3, 128, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv3_3: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv3_4: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool3: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv4_1: shape:[3, 3, 256, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv4_3: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv4_4: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool4: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv5_1: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv5_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv5_3: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv5_4: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool5: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] FlattenLayer flatten: 25088
+  [TL] DenseLayer  fc6: 4096 relu
+  [TL] DenseLayer  fc7: 4096 relu
+  [TL] DenseLayer  fc8: 1000 identity
+build model finished: 0.312444s
+  Loading conv1_1: (3, 3, 3, 64), (64,)
+  Loading conv1_2: (3, 3, 64, 64), (64,)
+  Loading conv2_1: (3, 3, 64, 128), (128,)
+  Loading conv2_2: (3, 3, 128, 128), (128,)
+  Loading conv3_1: (3, 3, 128, 256), (256,)
+  Loading conv3_2: (3, 3, 256, 256), (256,)
+  Loading conv3_3: (3, 3, 256, 256), (256,)
+  Loading conv3_4: (3, 3, 256, 256), (256,)
+  Loading conv4_1: (3, 3, 256, 512), (512,)
+  Loading conv4_2: (3, 3, 512, 512), (512,)
+  Loading conv4_3: (3, 3, 512, 512), (512,)
+  Loading conv4_4: (3, 3, 512, 512), (512,)
+  Loading conv5_1: (3, 3, 512, 512), (512,)
+  Loading conv5_2: (3, 3, 512, 512), (512,)
+  Loading conv5_3: (3, 3, 512, 512), (512,)
+  Loading conv5_4: (3, 3, 512, 512), (512,)
+  Loading fc6: (25088, 4096), (4096,)
+  Loading fc7: (4096, 4096), (4096,)
+  Loading fc8: (4096, 1000), (1000,)
+Restoring model from npz file
+C:\Users\jyh\AppData\Local\Programs\Python\Python35\lib\site-packages\skimage\transform\_warps.py:84: UserWarning: The default mode, 'constant', will be changed to 'reflect' in skimage 0.15.
+  warn("The default mode, 'constant', will be changed to 'reflect' in "
+End time : 75.68s
+Top1:  tiger, Panthera tigris 0.820637
+Top5:  [('tiger, Panthera tigris', 0.82063681), ('tiger cat', 0.17823486), ('jaguar, panther, Panthera onca, Felis onca', 0.00073050673), ('zebra', 0.00016781733), ('tabby, tabby cat', 5.5687266e-05)]
+
+Process finished with exit code 0

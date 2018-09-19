@@ -1,0 +1,127 @@
+C:\Users\jyh\AppData\Local\Programs\Python\Python35\python.exe C:/Users/jyh/PycharmProjects/untitled1/tutorial_vgg16.py
+2017-06-14 20:02:05.351025: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.351269: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.351556: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.351826: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.352057: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.352293: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.352562: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-14 20:02:05.352822: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+  [TL] InputLayer  input: (?, 224, 224, 3)
+  [TL] Conv2dLayer conv1_1: shape:[3, 3, 3, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool1: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv2_1: shape:[3, 3, 64, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool2: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv3_1: shape:[3, 3, 128, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv3_3: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool3: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv4_1: shape:[3, 3, 256, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv4_3: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool4: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer conv5_1: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv5_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer conv5_3: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   pool5: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] FlattenLayer flatten: 25088
+  [TL] DenseLayer  fc1_relu: 4096 relu
+  [TL] DenseLayer  fc2_relu: 4096 relu
+  [TL] DenseLayer  fc3_relu: 1000 identity
+  param   0: (3, 3, 3, 64)   (mean: -0.00043849984649568796, median: -0.00023147334286477417, std: 0.017838260158896446)   conv1_1/W_conv2d:0
+  param   1: (64,)           (mean: 0.0               , median: 0.0               , std: 0.0               )   conv1_1/b_conv2d:0
+  param   2: (3, 3, 64, 64)  (mean: -0.00012422043073456734, median: -0.00017411491717211902, std: 0.017585525289177895)   conv1_2/W_conv2d:0
+  param   3: (64,)           (mean: 0.0               , median: 0.0               , std: 0.0               )   conv1_2/b_conv2d:0
+  param   4: (3, 3, 64, 128) (mean: -2.5730838387971744e-05, median: -8.040031389100477e-06, std: 0.017599796876311302)   conv2_1/W_conv2d:0
+  param   5: (128,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv2_1/b_conv2d:0
+  param   6: (3, 3, 128, 128) (mean: -6.44063256913796e-05, median: -6.647987174801528e-05, std: 0.017615683376789093)   conv2_2/W_conv2d:0
+  param   7: (128,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv2_2/b_conv2d:0
+  param   8: (3, 3, 128, 256) (mean: -1.9799674191744998e-05, median: -4.0294464270118624e-05, std: 0.017569229006767273)   conv3_1/W_conv2d:0
+  param   9: (256,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv3_1/b_conv2d:0
+  param  10: (3, 3, 256, 256) (mean: 6.146969440123939e-07, median: -2.8507827664725482e-05, std: 0.01758657768368721)   conv3_2/W_conv2d:0
+  param  11: (256,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv3_2/b_conv2d:0
+  param  12: (3, 3, 256, 256) (mean: -1.4933074510281585e-07, median: 1.82541389222024e-05, std: 0.017590302973985672)   conv3_3/W_conv2d:0
+  param  13: (256,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv3_3/b_conv2d:0
+  param  14: (3, 3, 256, 512) (mean: 3.4966502425959334e-05, median: 3.5498946090228856e-05, std: 0.017586514353752136)   conv4_1/W_conv2d:0
+  param  15: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv4_1/b_conv2d:0
+  param  16: (3, 3, 512, 512) (mean: -5.138773758517345e-06, median: 9.376595698995516e-06, std: 0.017599230632185936)   conv4_2/W_conv2d:0
+  param  17: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv4_2/b_conv2d:0
+  param  18: (3, 3, 512, 512) (mean: -1.4002294790316228e-07, median: 6.329713869490661e-06, std: 0.017598411068320274)   conv4_3/W_conv2d:0
+  param  19: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv4_3/b_conv2d:0
+  param  20: (3, 3, 512, 512) (mean: 1.4375593764270889e-06, median: 7.709620149398688e-06, std: 0.01759772188961506)   conv5_1/W_conv2d:0
+  param  21: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv5_1/b_conv2d:0
+  param  22: (3, 3, 512, 512) (mean: 6.589834811165929e-06, median: 1.7933318304130808e-05, std: 0.017612257972359657)   conv5_2/W_conv2d:0
+  param  23: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv5_2/b_conv2d:0
+  param  24: (3, 3, 512, 512) (mean: 1.1582023944356479e-05, median: 1.0341957022319548e-05, std: 0.01759459264576435)   conv5_3/W_conv2d:0
+  param  25: (512,)          (mean: 0.0               , median: 0.0               , std: 0.0               )   conv5_3/b_conv2d:0
+  param  26: (25088, 4096)   (mean: -1.1411145351303276e-05, median: -2.269943433930166e-05, std: 0.08796010911464691)   fc1_relu/W:0
+  param  27: (4096,)         (mean: 0.0               , median: 0.0               , std: 0.0               )   fc1_relu/b:0
+  param  28: (4096, 4096)    (mean: -2.955871241283603e-05, median: -2.3902266548248008e-05, std: 0.08793790638446808)   fc2_relu/W:0
+  param  29: (4096,)         (mean: 0.0               , median: 0.0               , std: 0.0               )   fc2_relu/b:0
+  param  30: (4096, 1000)    (mean: -2.3351600248133764e-05, median: -1.9903295651602093e-06, std: 0.08796869218349457)   fc3_relu/W:0
+  param  31: (1000,)         (mean: 0.0               , median: 0.0               , std: 0.0               )   fc3_relu/b:0
+  num of params: 138357544
+  layer 0: Tensor("conv1_1/Relu:0", shape=(?, 224, 224, 64), dtype=float32)
+  layer 1: Tensor("conv1_2/Relu:0", shape=(?, 224, 224, 64), dtype=float32)
+  layer 2: Tensor("pool1:0", shape=(?, 112, 112, 64), dtype=float32)
+  layer 3: Tensor("conv2_1/Relu:0", shape=(?, 112, 112, 128), dtype=float32)
+  layer 4: Tensor("conv2_2/Relu:0", shape=(?, 112, 112, 128), dtype=float32)
+  layer 5: Tensor("pool2:0", shape=(?, 56, 56, 128), dtype=float32)
+  layer 6: Tensor("conv3_1/Relu:0", shape=(?, 56, 56, 256), dtype=float32)
+  layer 7: Tensor("conv3_2/Relu:0", shape=(?, 56, 56, 256), dtype=float32)
+  layer 8: Tensor("conv3_3/Relu:0", shape=(?, 56, 56, 256), dtype=float32)
+  layer 9: Tensor("pool3:0", shape=(?, 28, 28, 256), dtype=float32)
+  layer 10: Tensor("conv4_1/Relu:0", shape=(?, 28, 28, 512), dtype=float32)
+  layer 11: Tensor("conv4_2/Relu:0", shape=(?, 28, 28, 512), dtype=float32)
+  layer 12: Tensor("conv4_3/Relu:0", shape=(?, 28, 28, 512), dtype=float32)
+  layer 13: Tensor("pool4:0", shape=(?, 14, 14, 512), dtype=float32)
+  layer 14: Tensor("conv5_1/Relu:0", shape=(?, 14, 14, 512), dtype=float32)
+  layer 15: Tensor("conv5_2/Relu:0", shape=(?, 14, 14, 512), dtype=float32)
+  layer 16: Tensor("conv5_3/Relu:0", shape=(?, 14, 14, 512), dtype=float32)
+  layer 17: Tensor("pool5:0", shape=(?, 7, 7, 512), dtype=float32)
+  layer 18: Tensor("flatten:0", shape=(?, 25088), dtype=float32)
+  layer 19: Tensor("fc1_relu/Relu:0", shape=(?, 4096), dtype=float32)
+  layer 20: Tensor("fc2_relu/Relu:0", shape=(?, 4096), dtype=float32)
+  layer 21: Tensor("fc3_relu/Identity:0", shape=(?, 1000), dtype=float32)
+  Loading (3, 3, 3, 64)
+  Loading (64,)
+  Loading (3, 3, 64, 64)
+  Loading (64,)
+  Loading (3, 3, 64, 128)
+  Loading (128,)
+  Loading (3, 3, 128, 128)
+  Loading (128,)
+  Loading (3, 3, 128, 256)
+  Loading (256,)
+  Loading (3, 3, 256, 256)
+  Loading (256,)
+  Loading (3, 3, 256, 256)
+  Loading (256,)
+  Loading (3, 3, 256, 512)
+  Loading (512,)
+  Loading (3, 3, 512, 512)
+  Loading (512,)
+  Loading (3, 3, 512, 512)
+  Loading (512,)
+  Loading (3, 3, 512, 512)
+  Loading (512,)
+  Loading (3, 3, 512, 512)
+  Loading (512,)
+  Loading (3, 3, 512, 512)
+  Loading (512,)
+  Loading (25088, 4096)
+  Loading (4096,)
+  Loading (4096, 4096)
+  Loading (4096,)
+  Loading (4096, 1000)
+  Loading (1000,)
+  End time : 12.11s
+weasel 0.693386
+polecat, fitch, foulmart, foumart, Mustela putorius 0.175388
+mink 0.122086
+black-footed ferret, ferret, Mustela nigripes 0.00887066
+otter 0.000121083
+
+Process finished with exit code 0
