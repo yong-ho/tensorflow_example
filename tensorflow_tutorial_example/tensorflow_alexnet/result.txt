@@ -1,0 +1,8 @@
+Fitting network took 16450.80907726288 seconds (clock time)
+Saving weights for next time
+
+
+Training Accuracy: 0.04179805342681575
+
+
+Test Accuracy: 0.03972034419634332
