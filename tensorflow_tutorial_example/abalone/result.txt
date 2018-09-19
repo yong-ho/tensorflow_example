@@ -1,0 +1,147 @@
+C:\Users\jyh\AppData\Local\Programs\Python\Python35\python.exe C:/Users/jyh/PycharmProjects/untitled1/abalone.py
+Training data is downloaded to C:\Users\jyh\AppData\Local\Temp\tmpqacq4wkc
+Test data is downloaded to C:\Users\jyh\AppData\Local\Temp\tmp7lsl1mah
+Prediction data is downloaded to C:\Users\jyh\AppData\Local\Temp\tmpqsfn4mr9
+INFO:tensorflow:Using default config.
+INFO:tensorflow:Using config: {'_environment': 'local', '_tf_random_seed': None, '_keep_checkpoint_max': 5, '_save_summary_steps': 100, '_save_checkpoints_secs': 600, '_num_ps_replicas': 0, '_save_checkpoints_steps': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1
+}
+, '_num_worker_replicas': 0, '_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001ED68C7AC50>, '_evaluation_master': '', '_keep_checkpoint_every_n_hours': 10000, '_master': '', '_model_dir': None, '_is_chief': True}
+WARNING:tensorflow:Using temporary folder as model directory: C:\Users\jyh\AppData\Local\Temp\tmpvwb8eime
+INFO:tensorflow:Create CheckpointSaverHook.
+2017-06-15 10:31:19.723556: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.724002: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.724239: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.724556: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.724972: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.725364: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.725655: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 10:31:19.726038: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+INFO:tensorflow:Saving checkpoints for 1 into C:\Users\jyh\AppData\Local\Temp\tmpvwb8eime\model.ckpt.
+INFO:tensorflow:step = 1, loss = 110.289
+INFO:tensorflow:global_step/sec: 653.593
+INFO:tensorflow:step = 101, loss = 7.19959 (0.146 sec)
+INFO:tensorflow:global_step/sec: 653.596
+INFO:tensorflow:step = 201, loss = 7.10529 (0.152 sec)
+INFO:tensorflow:global_step/sec: 781.248
+INFO:tensorflow:step = 301, loss = 7.0404 (0.129 sec)
+INFO:tensorflow:global_step/sec: 684.938
+INFO:tensorflow:step = 401, loss = 6.98347 (0.145 sec)
+INFO:tensorflow:global_step/sec: 819.671
+INFO:tensorflow:step = 501, loss = 6.93301 (0.123 sec)
+INFO:tensorflow:global_step/sec: 699.292
+INFO:tensorflow:step = 601, loss = 6.88862 (0.143 sec)
+INFO:tensorflow:global_step/sec: 735.304
+INFO:tensorflow:step = 701, loss = 6.84698 (0.136 sec)
+INFO:tensorflow:global_step/sec: 740.653
+INFO:tensorflow:step = 801, loss = 6.80577 (0.135 sec)
+INFO:tensorflow:global_step/sec: 781.347
+INFO:tensorflow:step = 901, loss = 6.76491 (0.128 sec)
+INFO:tensorflow:global_step/sec: 757.573
+INFO:tensorflow:step = 1001, loss = 6.72362 (0.132 sec)
+INFO:tensorflow:global_step/sec: 769.226
+INFO:tensorflow:step = 1101, loss = 6.68152 (0.129 sec)
+INFO:tensorflow:global_step/sec: 751.882
+INFO:tensorflow:step = 1201, loss = 6.63871 (0.134 sec)
+INFO:tensorflow:global_step/sec: 813.002
+INFO:tensorflow:step = 1301, loss = 6.59485 (0.123 sec)
+INFO:tensorflow:global_step/sec: 763.357
+INFO:tensorflow:step = 1401, loss = 6.54974 (0.131 sec)
+INFO:tensorflow:global_step/sec: 769.224
+INFO:tensorflow:step = 1501, loss = 6.5035 (0.129 sec)
+INFO:tensorflow:global_step/sec: 781.256
+INFO:tensorflow:step = 1601, loss = 6.45591 (0.129 sec)
+INFO:tensorflow:global_step/sec: 769.241
+INFO:tensorflow:step = 1701, loss = 6.40672 (0.130 sec)
+INFO:tensorflow:global_step/sec: 813.01
+INFO:tensorflow:step = 1801, loss = 6.35593 (0.123 sec)
+INFO:tensorflow:global_step/sec: 799.988
+INFO:tensorflow:step = 1901, loss = 6.30332 (0.124 sec)
+INFO:tensorflow:global_step/sec: 800.014
+INFO:tensorflow:step = 2001, loss = 6.24889 (0.125 sec)
+INFO:tensorflow:global_step/sec: 826.428
+INFO:tensorflow:step = 2101, loss = 6.19251 (0.122 sec)
+INFO:tensorflow:global_step/sec: 769.239
+INFO:tensorflow:step = 2201, loss = 6.1343 (0.130 sec)
+INFO:tensorflow:global_step/sec: 806.451
+INFO:tensorflow:step = 2301, loss = 6.07429 (0.123 sec)
+INFO:tensorflow:global_step/sec: 793.651
+INFO:tensorflow:step = 2401, loss = 6.01252 (0.126 sec)
+INFO:tensorflow:global_step/sec: 746.271
+INFO:tensorflow:step = 2501, loss = 5.94914 (0.134 sec)
+INFO:tensorflow:global_step/sec: 781.244
+INFO:tensorflow:step = 2601, loss = 5.88434 (0.128 sec)
+INFO:tensorflow:global_step/sec: 806.446
+INFO:tensorflow:step = 2701, loss = 5.81836 (0.124 sec)
+INFO:tensorflow:global_step/sec: 806.46
+INFO:tensorflow:step = 2801, loss = 5.75154 (0.124 sec)
+INFO:tensorflow:global_step/sec: 819.669
+INFO:tensorflow:step = 2901, loss = 5.68425 (0.123 sec)
+INFO:tensorflow:global_step/sec: 719.432
+INFO:tensorflow:step = 3001, loss = 5.61693 (0.138 sec)
+INFO:tensorflow:global_step/sec: 826.438
+INFO:tensorflow:step = 3101, loss = 5.55011 (0.122 sec)
+INFO:tensorflow:global_step/sec: 735.297
+INFO:tensorflow:step = 3201, loss = 5.48426 (0.135 sec)
+INFO:tensorflow:global_step/sec: 769.233
+INFO:tensorflow:step = 3301, loss = 5.42003 (0.130 sec)
+INFO:tensorflow:global_step/sec: 806.439
+INFO:tensorflow:step = 3401, loss = 5.35809 (0.125 sec)
+INFO:tensorflow:global_step/sec: 763.367
+INFO:tensorflow:step = 3501, loss = 5.29918 (0.131 sec)
+INFO:tensorflow:global_step/sec: 781.244
+INFO:tensorflow:step = 3601, loss = 5.24363 (0.127 sec)
+INFO:tensorflow:global_step/sec: 819.672
+INFO:tensorflow:step = 3701, loss = 5.19175 (0.122 sec)
+INFO:tensorflow:global_step/sec: 775.194
+INFO:tensorflow:step = 3801, loss = 5.14385 (0.129 sec)
+INFO:tensorflow:global_step/sec: 757.584
+INFO:tensorflow:step = 3901, loss = 5.10013 (0.132 sec)
+INFO:tensorflow:global_step/sec: 724.636
+INFO:tensorflow:step = 4001, loss = 5.06072 (0.138 sec)
+INFO:tensorflow:global_step/sec: 793.644
+INFO:tensorflow:step = 4101, loss = 5.0256 (0.127 sec)
+INFO:tensorflow:global_step/sec: 787.401
+INFO:tensorflow:step = 4201, loss = 4.99465 (0.127 sec)
+INFO:tensorflow:global_step/sec: 763.36
+INFO:tensorflow:step = 4301, loss = 4.96766 (0.131 sec)
+INFO:tensorflow:global_step/sec: 813.018
+INFO:tensorflow:step = 4401, loss = 4.94422 (0.123 sec)
+INFO:tensorflow:global_step/sec: 806.434
+INFO:tensorflow:step = 4501, loss = 4.92387 (0.123 sec)
+INFO:tensorflow:global_step/sec: 746.279
+INFO:tensorflow:step = 4601, loss = 4.90637 (0.135 sec)
+INFO:tensorflow:global_step/sec: 813.002
+INFO:tensorflow:step = 4701, loss = 4.89151 (0.123 sec)
+INFO:tensorflow:global_step/sec: 763.364
+INFO:tensorflow:step = 4801, loss = 4.87873 (0.131 sec)
+INFO:tensorflow:global_step/sec: 787.398
+INFO:tensorflow:step = 4901, loss = 4.86773 (0.127 sec)
+INFO:tensorflow:Saving checkpoints for 5000 into C:\Users\jyh\AppData\Local\Temp\tmpvwb8eime\model.ckpt.
+INFO:tensorflow:Loss for final step: 4.85836.
+INFO:tensorflow:Starting evaluation at 2017-06-15-01:31:28
+INFO:tensorflow:Restoring parameters from C:\Users\jyh\AppData\Local\Temp\tmpvwb8eime\model.ckpt-5000
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2017-06-15-01:31:28
+INFO:tensorflow:Saving dict for global step 5000: global_step = 5000, loss = 5.56451, rmse = 2.35892
+WARNING:tensorflow:Skipping summary for global_step, must be a float or np.float32.
+Loss: 5.56451
+Root Mean Squared Error: 2.35892
+WARNING:tensorflow:From C:/Users/jyh/PycharmProjects/untitled1/abalone.py:157: calling BaseEstimator.predict (from tensorflow.contrib.learn.python.learn.estimators.estimator) with x is deprecated and will be removed after 2016-12-01.
+Instructions for updating:
+Estimator is decoupled from Scikit Learn interface by moving into
+separate class SKCompat. Arguments x, y and batch_size are only
+available in the SKCompat class, Estimator will only accept input_fn.
+Example conversion:
+  est = Estimator(...) -> est = SKCompat(Estimator(...))
+WARNING:tensorflow:float64 is not supported by many models, consider casting to float32.
+INFO:tensorflow:Restoring parameters from C:\Users\jyh\AppData\Local\Temp\tmpvwb8eime\model.ckpt-5000
+Prediction 1: 4.69791631337
+Prediction 2: 10.5344629745
+Prediction 3: 7.10461231515
+Prediction 4: 10.8443431269
+Prediction 5: 11.1256994445
+Prediction 6: 9.48962012739
+Prediction 7: 11.2917581684
+
+Process finished with exit code 0

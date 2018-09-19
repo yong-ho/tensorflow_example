@@ -1,0 +1,51 @@
+C:\Users\jyh\AppData\Local\Programs\Python\Python35\python.exe C:/Users/jyh/PycharmProjects/untitled1/fully_connected_feed.py
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Extracting /tmp/tensorflow/mnist/input_data\train-images-idx3-ubyte.gz
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Extracting /tmp/tensorflow/mnist/input_data\train-labels-idx1-ubyte.gz
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Extracting /tmp/tensorflow/mnist/input_data\t10k-images-idx3-ubyte.gz
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting /tmp/tensorflow/mnist/input_data\t10k-labels-idx1-ubyte.gz
+2017-06-15 13:55:12.114774: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.125872: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.126163: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.126457: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.126805: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.127102: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.127374: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 13:55:12.127614: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Step 0: loss = 2.32 (0.232 sec)
+Step 100: loss = 2.12 (0.002 sec)
+Step 200: loss = 1.89 (0.002 sec)
+Step 300: loss = 1.58 (0.002 sec)
+Step 400: loss = 1.35 (0.002 sec)
+Step 500: loss = 0.95 (0.001 sec)
+Step 600: loss = 0.80 (0.001 sec)
+Step 700: loss = 0.58 (0.001 sec)
+Step 800: loss = 0.68 (0.001 sec)
+Step 900: loss = 0.53 (0.001 sec)
+Training Data Eval:
+  Num examples: 55000  Num correct: 47064  Precision @ 1: 0.8557
+Validation Data Eval:
+  Num examples: 5000  Num correct: 4324  Precision @ 1: 0.8648
+Test Data Eval:
+  Num examples: 10000  Num correct: 8615  Precision @ 1: 0.8615
+Step 1000: loss = 0.61 (0.016 sec)
+Step 1100: loss = 0.42 (0.088 sec)
+Step 1200: loss = 0.53 (0.001 sec)
+Step 1300: loss = 0.57 (0.002 sec)
+Step 1400: loss = 0.34 (0.002 sec)
+Step 1500: loss = 0.38 (0.001 sec)
+Step 1600: loss = 0.48 (0.002 sec)
+Step 1700: loss = 0.44 (0.001 sec)
+Step 1800: loss = 0.43 (0.002 sec)
+Step 1900: loss = 0.41 (0.001 sec)
+Training Data Eval:
+  Num examples: 55000  Num correct: 49113  Precision @ 1: 0.8930
+Validation Data Eval:
+  Num examples: 5000  Num correct: 4506  Precision @ 1: 0.9012
+Test Data Eval:
+  Num examples: 10000  Num correct: 8963  Precision @ 1: 0.8963
+
+Process finished with exit code 0
